@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+}
+
+.mynav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+  background-color: goldenrod;
+}
+
+.navleft{
+    float: left;
+}
+
+.navright{
+  float: right;
+}
+
+.mynav span{
+  padding: 25px;
+  display: block;
+  font-size: 2em;
+}
+
+.mynav span:hover{
+  background-color: bisque;
+}
+
+.banner{
+  border: 1px solid black;
+  text-align: center;
+  background-color: tomato;
+}
+
+.content_container{
+  background-image: url(https://source.unsplash.com/1920x1080/?nature);
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.content_column{
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 1.5em;
+  color: magenta;
+}
+
+.content_column_middle{
+  float: left;
+  width: 60%;
+  text-align: center;
+  font-size: 1.5em;
+  color: back;
+  background-color: whitesmoke;
+}
+
+.column_text{
+  padding: 50px;
+}
+
