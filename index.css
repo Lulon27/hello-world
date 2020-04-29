@@ -21,7 +21,8 @@
 .mynav span{
   padding: 25px;
   display: block;
-  font-size: 2em;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .mynav span:hover{
@@ -45,7 +46,7 @@
   float: left;
   width: 20%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: magenta;
 }
 
@@ -53,7 +54,7 @@
   float: left;
   width: 60%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: back;
   background-color: whitesmoke;
 }
