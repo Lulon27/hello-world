@@ -1,0 +1,64 @@
+.prettyform-section
+{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.prettyform-section input
+{
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    outline: none;
+}
+
+.prettyform-section label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    pointer-events: none;
+}
+
+.prettyform-section label span
+{
+    position: absolute;
+    bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.prettyform-section label::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+
+.prettyform-section input:focus + label span,
+.prettyform-section input:not(:placeholder-shown) + label span
+{
+    color: rgb(30, 30, 30);
+    transform: translateY(-150%);
+    font-size: 14px;
+}
+
+.prettyform-section input:focus + label::after,
+.prettyform-section input:not(:placeholder-shown) + label::after
+{
+    transform: translateX(0%);
+    border-bottom: 2px solid darkred;
+}

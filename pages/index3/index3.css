@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+}
+
+.mynav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+  background-color: goldenrod;
+}
+
+.navleft{
+    float: left;
+}
+
+.navright{
+  float: right;
+}
+
+.mynav span{
+  padding: 25px;
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  transition: all 0.3s;
+}
+
+.mynav span:hover{
+  background-color: bisque;
+}
+
+.banner{
+  border: 1px solid black;
+  text-align: center;
+  background-color: tomato;
+}
+
+.content_container{
+  background-image: url(https://source.unsplash.com/1920x1080/?nature);
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.content_column{
+  float: left;
+  width: 20%;
+  color: magenta;
+}
+
+.content_column_middle{
+  float: left;
+  width: 60%;
+  color: back;
+  background-color: whitesmoke;
+}
+
+.column_text{
+  margin: 50px;
+  text-align: center;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.myform{
+  margin: 50px;
+}
+
+.myform input, .myform label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+}
+
+#submit_button{
+  background-color: silver;
+  border: 2px solid slategray;
+  font-size: 2em;
+
+}
+
+#submit_button:active{
+  outline: violet outset 2px;
+}
